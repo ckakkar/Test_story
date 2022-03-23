@@ -1,0 +1,93 @@
+html
+{
+    background-color: rgb(121, 10, 10);
+}
+.WhiteLayer
+{
+    background-color: lightgrey;
+    width: 1100px;
+    height: 75%;
+    border-top: 30px solid rgb(0, 0, 0);
+    border-bottom: 55px solid black;
+    padding: 50px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-left: 110px;
+    margin-right: 50px;
+}
+h2
+{
+    color: rgb(165, 18, 18);
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.RedText
+{
+    color: rgb(165, 18, 18);
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 20;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.GreyLayer
+{
+    margin-top: -20px;
+    margin-left: -0.75cm;
+    height: 605px;
+    width:85%;
+    background-color: rgba(156, 166, 170, 0.575);
+}
+table, th, td 
+{
+    border: 1px solid rgba(122, 127, 133, 0.575);
+    border-collapse: collapse;
+}
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 95%;
+    height: 70px;
+    text-align: left;
+}
+.TblHead
+{
+    background-color: rgba(122, 127, 133, 0.575);
+}
+h1
+{
+    margin-top: 0px;
+    font-family: Arial, sans-serif;
+    margin-left: -30px;
+}
+.p1
+{
+    margin-top: 45px;
+    margin-left: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pic1
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.submission
+{
+    margin-left: 700px;
+    margin-top: -120px;
+}
+.boxHeight
+{
+    margin-top: 20px; 
+    margin-bottom: -10px; 
+    display:inline-block;
+    padding:15px 10px;
+    line-height:140%;
+}
+.deff
+{
+    color: blue;
+    margin-left: 20px;
+}

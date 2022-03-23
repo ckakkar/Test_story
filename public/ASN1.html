@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>
+            Grade Calculator
+        </title>
+        <link rel="stylesheet" type="text/css" href="/stylesheets/ASN1.css"/>
+    </head>
+    <body>
+        <main>
+            <div class="whiteLayer">
+                <h1>
+                    Grade Calculator
+                </h1>
+                <div class="GreyLayer">
+                    <h2>
+                        Activities
+                    </h2>
+                    <p class="p1">
+                        Give grades to the numeric activities
+                    </p>
+                    <table id="myTable">
+                        <tr class="TblHead">
+                          <th>Name</th>
+                          <th>Short Name</th>
+                          <th>Weight</th>
+                          <th>Grade</th>
+                          <th>Percent</th>
+                        </tr>
+                        <tr>
+                          <td>Activity 1</td>
+                          <td>A1</td>
+                          <td>
+                            <Form>
+                                <input class="boxHeight" type="text" id="Weight1" size="5">
+                            </Form>
+                          </td>
+                          <td>
+                            <Form>
+                                <input class="boxHeight" type="text" id="Grade1" size="5">/<input class="boxHeight" type="text" id="OutOf1" size="5">
+                            </Form>
+                          </td>
+                          <td><span id="percen1"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Activity 2</td>
+                            <td>A2</td>
+                            <td>
+                              <Form>
+                                  <input type="text" class="boxHeight" id="Weight2" size="5">
+                              </Form>
+                            </td>
+                            <td>
+                              <Form>
+                                  <input type="text" class="boxHeight" id="Grade2" size="5">/<input type="text" class="boxHeight" id="OutOf2" size="5">
+                              </Form>
+                            </td>
+                            <td><span id="percen2"></span></td>
+                          </tr>
+                          <tr>
+                            <td>Activity 3</td>
+                            <td>A3</td>
+                            <td>
+                              <Form>
+                                  <input type="text" class="boxHeight" id="Weight3" size="5">
+                              </Form>
+                            </td>
+                            <td>
+                              <Form>
+                                  <input type="text" class="boxHeight" id="Grade3" size="5">/<input type="text" class="boxHeight" id="OutOf3" size="5">
+                              </Form>
+                            </td>
+                            <td><span id="percen3"></span></td>
+                          </tr>
+                          <tr>
+                            <td>Activity 4</td>
+                            <td>A4</td>
+                            <td>
+                              <Form>
+                                  <input type="text" class="boxHeight" id="Weight4" size="5">
+                              </Form>
+                            </td>
+                            <td>
+                              <Form>
+                                  <input type="text" id="Grade4" class="boxHeight" size="5">/<input type="text" id="OutOf4" class="boxHeight" size="5">
+                              </Form>
+                            </td>
+                            <td><span id="percen4"></span></td>
+                          </tr>
+                    </table>
+                    <div class="pic1">
+                        <input type="image" id="newrow" src="ADD ACTIVITY.png" value="add" alt="Submit" onclick="addRow()" width="100" height="48"/>
+                    </div>
+                    <p class="RedText">
+                        Result<br>
+                    </p>
+                    <span class="Deff"id="result"></span>
+                    <div class="submission">
+                        <input type="image" src="MEAN.png" alt="Mean" onclick="getMean()" width="100" height="48"/>
+                        <input type="image" src="WEIGHTED.png" alt="Weighted" onclick="getAvg()" width="100" height="48"/>
+                    </div>
+                </div>
+              </div>   
+            
+        </main>
+    </body>
+    <script src="ASN1.js"></script>
+</html>
